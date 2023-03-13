@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- LINK BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- LINK fontawesome -->
+    <script src="https://kit.fontawesome.com/ef9d6352ec.js" crossorigin="anonymous"></script>
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- LINK GOOGLEFONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+
+<!-- NAVBAR -->
+<div class="tituloenlinea d-flex justify-content-center mt-3 ms-0">
+<nav class="navbar navbar-expand-lg bg-body-tertiary w-100 me-5 ms-5">
+    <div class="container-fluid">
+                          <!-- BOTON INSTAGRAM -->
+      <a class="navbar-brand" href="#"> <i class="fa-brands fa-instagram me-1"></i>Instagram </a>
+
+      
+            <div class="botonesjuntos justify-content-end d-flex">
+                          
+<button type="button" class="btn btn-success me-3 btn-sm h-75" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Create new post
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Create new post</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label"> <h2 class="fs-6">Caption:</h2></label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="Add the caption of your post here">
+            <p> <i class="border rounded  fa-solid fa-camera fs-4 p-2"></i> <i class="border rounded fa-sharp fa-solid fa-location-dot fs-4 p-2"></i></p>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+                         <!-- BOTON DE AJUSTES -->
+                         <li class="nav-item dropdown btn btn-secondary fs-6 p-0 justify-content-center" style="list-style-type: none;">
+                          <a class="nav-link dropdown-toggle justify-content-center w-25" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button type="button" class="btn btn-secondary btn-sm"><i class="fa-sharp fa-solid fa-gear w-25"></i></button>
+                          </a> 
+                          <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                          </ul>
+                        </li>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
+ <!-- BOTONES DE GRILLA O COLUMNA                 -->
+  <nav>
+    <div class="nav nav-tabs border-0 justify-content-center" id="nav-tab" role="tablist">
+      <button class="nav-link active border-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+      <button class="nav-link border-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square-full"></i></button>
+      </div>
+  </nav>
+
+  <!-- BOTON EN GRILLA -->
+  <div class="tab-content mt-4" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+    
+      <div class="container text-center">
+        
+<!-- FILA 1 -->
+      <div class="row mb-3 w-100">
+  <div class="col"><img  src="https://www.feelcats.com/wp-content/uploads/2019/08/beagle.jpg" width="100%"> </div>   
+  <div class="col"><img  src="https://img.freepik.com/fotos-premium/grupo-jovenes-estudiantes-felices-universidad_85574-4531.jpg" width="100%"></div>
+  <div class="col"><img  src="https://a.cdn-hotels.com/gdcs/production74/d1449/5695b321-d12f-425d-86db-fd6cc68eff36.jpg?impolicy=fcrop&w=800&h=533&q=medium" width="100%"></div>
+</div>
+<!-- FILA 2 -->
+<div class="row mb-3 w-100">
+  <div class="col"><img  src="https://img.freepik.com/premium-photo/close-up-crazy-young-black-woman-winking-laughing-against-white-background_33839-11548.jpg?w=2000" width="100%"> </div>
+  <div class="col"><img  src="https://img.freepik.com/fotos-premium/salida-sol-torre-eiffel-paris-francia_73503-265.jpg" width="100%"></div>
+  <div class="col"><img  src="https://www.laprensa.hn/binrepository/1200x800/0c0/0d0/none/11004/QTXC/manchester-chelsea02_1418075_20220428153445.jpg" width="100%"></div>
+</div>
+
+
+<!-- FILA 3 -->
+<div class="row mb-3 w-100">
+  <div class="col"><img  src="https://cf.ltkcdn.net/family/images/std/200821-800x533r1-family.jpg" width="100%"> </div>
+  <div class="col"><img  src="https://www.bambu-mobile.com/wp-content/uploads/2022/06/Lenguajes-de-programacion-del-futuro-programacion-lenguajes-de-programacion-python-JS-C-Java-1024x683.jpg" width="100%"></div>
+  <div class="col"><img  src="https://st.depositphotos.com/1037987/4845/i/600/depositphotos_48459247-stock-photo-university-students-using-digital-tablet.jpg" width="100%"></div>
+</div>
+
+
+
+
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+    
+    <!-- BOTON DE COLUMNA -->
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+
+<!-- PRIMERA FOTO -->
+      <div class="tab-content mt-5" id="nav-tabContent">
+        <div class="tab-pane fade show active d-flex justify-content-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><div class="border-secondary mb-3 rounded-0" style="max-width: 30rem;">
+          <div class="card-header border border-dark-subtle bg-transparent d-flex justify-content-between">
+            <h5 class="fs-4 mt-2 mb-2 ms-1">My crazy dog Spark!</h5>
+            <p class="fs-6 mt-1 me-1">08/26</p>
+          </div>
+          <div class="border border-dark-subtle">
+              <img class="imagen1" src="https://www.feelcats.com/wp-content/uploads/2019/08/beagle.jpg"  width="100%">
+            <p class="mb-0 ms-2 mt-2"><strong>204 Likes</strong></p>
+            <p class="ms-2">This is an example of a very good photo that you can post on Instagram</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- SEGUNDA FOTO -->
+      <div class="tab-content mt-5" id="nav-tabContent">
+        <div class="tab-pane fade show active d-flex justify-content-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><div class="border-secondary mb-3 rounded-0" style="max-width: 30rem;">
+          <div class="card-header border border-dark-subtle bg-transparent d-flex justify-content-between">
+            <h5 class="fs-4 mt-2 mb-2 ms-1">The greatness of Croatia</h5>
+            <p class="fs-6 mt-1 me-1">04/09</p>
+          </div>
+          <div class="border border-dark-subtle">
+              <img class="imagen1" src="https://a.cdn-hotels.com/gdcs/production74/d1449/5695b321-d12f-425d-86db-fd6cc68eff36.jpg?impolicy=fcrop&w=800&h=533&q=medium"  width="100%">
+            <p class="mb-0 ms-2 mt-2"><strong>26985 Likes</strong></p>
+            <p class="ms-2">This is an example of a very good photo that you can post on Instagram</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- TERCERA FOTO -->
+      <div class="tab-content mt-5" id="nav-tabContent">
+        <div class="tab-pane fade show active d-flex justify-content-center" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><div class="border-secondary mb-3 rounded-0" style="max-width: 30rem;">
+          <div class="card-header border border-dark-subtle bg-transparent d-flex justify-content-between">
+            <h5 class="fs-4 mt-2 mb-2 ms-1">Amazing GOAL by Cristiano!</h5>
+            <p class="fs-6 mt-1 me-1">06/10</p>
+          </div>
+          <div class="border border-dark-subtle">
+              <img class="imagen1" src="https://www.laprensa.hn/binrepository/1200x800/0c0/0d0/none/11004/QTXC/manchester-chelsea02_1418075_20220428153445.jpg"  width="100%">
+            <p class="mb-0 ms-2 mt-2"><strong>5636434 Likes</strong></p>
+            <p class="ms-2">This is an example of a very good photo that you can post on Instagram</p>
+          </div>
+          
+        </div>
+      </div>
+    </div></div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<!-- SCRIP DE BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
